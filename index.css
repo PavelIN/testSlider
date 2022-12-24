@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(fonts/Roboto-Regular.ttf);
+    src: url(./fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url(fonts/Roboto-Medium.ttf);
+    src: url(./fonts/Roboto-Medium.ttf);
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url(/fonts/Roboto-Bold.ttf);
+    src: url(./fonts/Roboto-Bold.ttf);
 }
 
 
@@ -31,6 +31,7 @@
     height: 47px;
     border: none;
     outline: none;
+    padding: 0 5px;
 }
 
 .header {
@@ -199,7 +200,7 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 0 0 0;
-    background-image: url(/images/Rectangle\ 1slider-sum.svg);
+    background-image: url(./images/Rectangle\ 1slider-sum.svg);
     min-height: 399px;
     background-position: center;
     background-size: cover;
@@ -363,7 +364,7 @@
 
 .section__recommendation-preview {
     width: 100%;
-    background-image: url(/images/prew1.svg);
+    background-image: url(./images/prew1.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -375,7 +376,7 @@
 
 .section__recommendation-previewSleder {
     width: 100%;
-    background-image: url(/images/pew2.png);
+    background-image: url(./images/pew2.png);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -512,7 +513,7 @@
 
 .z {
     width: 100%;
-    background-image: url(/images/1.svg);
+    background-image: url(./images/1.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -523,7 +524,7 @@
 
 .o {
     width: 100%;
-    background-image: url(/images/2.svg);
+    background-image: url(./images/2.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -534,7 +535,7 @@
 
 .m {
     width: 100%;
-    background-image: url(/images/3.svg);
+    background-image: url(./images/3.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -544,7 +545,7 @@
 
 .p {
     width: 100%;
-    background-image: url(/images/4.svg);
+    background-image: url(./images/4.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -554,7 +555,7 @@
 
 .r {
     width: 100%;
-    background-image: url(/images/5.svg);
+    background-image: url(./images/5.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -564,7 +565,7 @@
 
 .d {
     width: 100%;
-    background-image: url(/images/6.svg);
+    background-image: url(./images/6.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -574,7 +575,7 @@
 
 .ro {
     width: 100%;
-    background-image: url(/images/7.svg);
+    background-image: url(./images/7.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -584,7 +585,7 @@
 
 .pr {
     width: 100%;
-    background-image: url(/images/8.svg);
+    background-image: url(./images/8.svg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -743,7 +744,7 @@
 }
 
 .section__card-img {
-    background: url(/images/11.svg);
+    background: url(./images/11.svg);
     height: 192px;
     width: 100%;
     background-position: center;
@@ -867,7 +868,7 @@
 }
 
 .section__card-image_botle {
-    background: url(/images/qqqq.svg);
+    background: url(./images/qqqq.svg);
     height: 60px;
     width: 60px;
     background-position: center;
@@ -878,7 +879,7 @@
 }
 
 .section__card-image_tt {
-    background: url(/images/ttt\ 2.svg);
+    background: url(./images/ttt\ 2.svg);
     height: 60px;
     width: 60px;
     background-position: center;
@@ -889,7 +890,7 @@
 }
 
 .section__card-image_ttt {
-    background: url(/images/ttt\ 3.svg);
+    background: url(./images/ttt\ 3.svg);
     height: 60px;
     width: 60px;
     background-position: center;
@@ -900,7 +901,7 @@
 }
 
 .section__card-image_mbridelivery {
-    background: url(/images/mbridelivery_99588\ 1.svg);
+    background: url(./images/mbridelivery_99588\ 1.svg);
     height: 60px;
     width: 60px;
     background-position: center;
