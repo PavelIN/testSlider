@@ -1,0 +1,60 @@
+.section__advantages {
+    margin: 0 125px;
+
+    h2 {
+        margin-top: 100px;
+        margin-bottom: 52px;
+    }
+
+    .section__card {
+        cursor: pointer;
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 18px;
+        border: 1px solid #E9E9E9;
+        transition: 0.3s;
+    }
+
+    .section__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 32px;
+        row-gap: 30px;
+        padding-top: 47px;
+    }
+
+    .section__card-image {
+        margin: 15px auto;
+        display: flex;
+        transition: 0.3s;
+    }
+
+    
+
+    .section__card:hover{
+        background-color: #F37321;
+        color: white;
+        .section__card-image path{
+            fill: white !important;
+        }
+    }
+
+    .card__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        display: block;
+        margin: 34px 0 0 13px;
+    }
+
+    .card__title {
+        padding-top: 13px;
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        margin: 0 25px 25px 25px;
+    }
+
+}

@@ -1,0 +1,5 @@
+
+@mixin color($color, $cl) {
+    background-color: $color;
+    color: $cl;
+}

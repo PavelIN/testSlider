@@ -1,0 +1,106 @@
+
+.section__delivery {
+    margin: 0 125px;
+
+    .section__delivery-text {
+        margin-bottom: 47px;
+    }
+
+    .section__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 32px;
+        row-gap: 30px;
+
+        .section__container-elem {
+            cursor: pointer;
+        }
+
+        .section__container-elem:nth-child(1) {
+            @extend %imageAndColor;
+            background-image: url(./../../../dist/images/1.svg);
+
+            button {
+                @include color(#D0FD89, black)
+            }
+        }
+
+        .section__container-elem:nth-child(2) {
+            @extend %imageAndColor;
+            background-image: url(./../../../dist/images/2.svg);
+
+            button {
+                @include color(#AEBC41, white)
+            }
+        }
+
+        .section__container-elem:nth-child(3) {
+            @extend %imageAndColor;
+            background-image: url(./../../../dist/images/3.svg);
+
+            button {
+                @include color(#B86B78, white)
+            }
+        }
+
+        .section__container-elem:nth-child(4) {
+            @extend %imageAndColor;
+            background-image: url(./../../../dist/images/4.svg);
+
+            button {
+                @include color(#D68334, white)
+            }
+        }
+
+        .section__container-elem:nth-child(5) {
+            @extend %imageAndColor;
+            background-image: url(./../../../dist/images/5.svg);
+
+            button {
+                @include color(#CD6255, black)
+            }
+        }
+
+        .section__container-elem:nth-child(6) {
+            @extend %imageAndColor;
+            background-image: url(./../../../dist/images/6.svg);
+
+            button {
+                @include color(#FFFDBF, black)
+            }
+        }
+
+        .section__container-elem:nth-child(7) {
+            @extend %imageAndColor;
+            background-image: url(./../../../dist/images/7.svg);
+
+            button {
+                @include color(#F6FDC8, black)
+            }
+        }
+
+        .section__container-elem:nth-child(8) {
+            @extend %imageAndColor;
+            background-image: url(./../../../dist/images/8.svg);
+
+            button {
+                @include color(#FEF7FE, black)
+            }
+        }
+    }
+
+    .section__container-elem {
+        height: 182px;
+        color: white;
+    }
+
+    button {
+        border-radius: 30px;
+        border: none;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        height: 33px;
+        margin: 21px 0 0 20px;
+    }
+}

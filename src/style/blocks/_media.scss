@@ -1,0 +1,263 @@
+
+
+@mixin color($color, $cl) {
+    background-color: $color;
+    color: $cl;
+}
+
+
+@media screen and (max-width: 1220px) {
+    .header {
+        padding: $padding1220;
+    }
+
+    .container__form {
+        padding: $padding1220;
+    }
+
+    .carousel {
+        margin: 0 65px;
+    }
+
+    .section__recommendation {
+        margin: 0 65px;
+    }
+
+    .section__delivery {
+        margin: 0 65px;
+    }
+
+    .section__categories {
+        padding: $padding1220;
+        padding-bottom: 40px;
+    }
+
+    .section__categories {
+        .section__cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 32px;
+            row-gap: 37px;
+        }
+    }
+
+    .section__advantages {
+        margin: 0 65px;
+
+        h2 {
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .footer__container {
+        margin-top: 100px;
+        padding: $padding1220;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .header {
+        padding: $padding990;
+
+        form {
+            margin: auto 10px;
+        }
+    }
+
+    .container__form {
+        padding: $padding990;
+    }
+
+    .carousel {
+        margin: 0 10px;
+    }
+
+    .section__recommendation {
+        margin: 0 10px;
+        gap: 25px;
+    }
+
+    .section__delivery {
+        margin: 0 10px;
+
+        .section__container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .section__categories {
+        padding: $padding990;
+        padding-bottom: 25px;
+        margin-top: 40px;
+    }
+
+    .section__advantages {
+        margin: 0 10px;
+
+        .section__cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 32px;
+            row-gap: 30px;
+            padding-top: 15px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .footer__container {
+        margin-top: 40px;
+        padding: $padding990;
+        display: block;
+
+        .footer__container-link {
+            a:nth-child(2) {
+                margin-left: auto;
+            }
+        }
+
+        .footer__container-link {
+            font-size: 12px;
+        }
+
+        .footer__container-icon {
+            margin-top: 5px;
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        form {
+            margin: auto 10px;
+            display: none;
+        }
+
+        .header__button {
+            margin-left: auto;
+        }
+    }
+
+    .container__form {
+        padding: $padding990;
+
+        form {
+            margin: auto;
+        }
+    }
+
+    .section__hits-description {
+        font-size: 30px;
+        width: 270px;
+    }
+
+    .section__hits-title {
+        width: 289px;
+    }
+
+    .carousel::before,
+    .carousel__prev {
+        right: 160px;
+    }
+
+    .carousel::after,
+    .carousel__next {
+        right: 80px;
+    }
+
+    .section__hits-conrainer {
+        top: 24px;
+        left: 24px;
+    }
+
+    .section__recommendation {
+        display: block;
+    }
+
+    .section__recommendation-container {
+        padding: 20px;
+        margin: 36px 0 32px 0px
+    }
+
+    .section__delivery {
+        padding-top: 370px;
+
+        .section__container {
+            grid-template-columns: 1fr;
+        }
+
+        .section__delivery-text {
+            margin-bottom: 30px;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    .section__categories {
+        padding: $padding990;
+        margin-top: 40px;
+        text-align: center;
+        padding-bottom: 25px;
+
+        .section__nav-list {
+            justify-content: space-around;
+
+            .section__nav-item {
+                padding-right: 15px;
+                padding-bottom: 62px;
+                font-size: 14px;
+            }
+
+            .section__nav-item:nth-child(3) {
+                padding-right: 0;
+            }
+        }
+    }
+
+    .section__categories {
+        .section__cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            column-gap: 32px;
+            row-gap: 37px;
+            text-align: left;
+        }
+    }
+
+    .section__advantages {
+        .section__cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            column-gap: 32px;
+            row-gap: 30px;
+            padding-top: 15px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .footer__container {
+        margin-top: 15px;
+        padding: $padding990;
+
+        .footer__logo {
+            height: 80px;
+            width: 80px;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .container__form {
+        display: none;
+    }
+}

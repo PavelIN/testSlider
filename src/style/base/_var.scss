@@ -1,0 +1,19 @@
+$padding: 0px 125px;
+$padding1220: 0px 65px;
+$padding990: 0px 10px;
+
+
+
+%imageAndColor {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+%hover {
+    background-color: #F37321;
+    color: white;
+}

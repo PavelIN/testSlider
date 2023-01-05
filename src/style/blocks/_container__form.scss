@@ -1,0 +1,35 @@
+
+
+.container__form {
+    margin-top: 9px;
+    display: flex;
+    padding: $padding;
+
+    form {
+        position: relative;
+        margin: auto 75px;
+        width: 100%;
+        max-width: 620px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+        height: 49px;
+        border: none;
+        outline: none;
+        background: rgba(238, 238, 238, 0.71);
+        border-radius: 10px;
+        padding: 0 40px 0 20px;
+    }
+
+    .form__button-search {
+        background-color: rgba(238, 238, 238, 0);
+        position: absolute;
+        top: 25%;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        right: 13px;
+    }
+}

@@ -1,0 +1,178 @@
+
+@keyframes tonext {
+    75% {
+        left: 0;
+    }
+
+    95% {
+        left: 100%;
+    }
+
+    98% {
+        left: 100%;
+    }
+
+    99% {
+        left: 0;
+    }
+}
+
+@keyframes tostart {
+    75% {
+        left: 0;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    98% {
+        left: -300%;
+    }
+
+    99% {
+        left: 0;
+    }
+}
+
+@keyframes snap {
+    96% {
+        scroll-snap-align: center;
+    }
+
+    97% {
+        scroll-snap-align: none;
+    }
+
+    99% {
+        scroll-snap-align: none;
+    }
+
+    100% {
+        scroll-snap-align: center;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent;
+    /* thumb and track color */
+    scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+}
+
+* {
+    -ms-overflow-style: none;
+}
+
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    padding-top: 30px;
+    margin: 0 125px;
+    height: 400px;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
+    perspective: 100px;
+}
+
+.carousel__viewport {
+    width: 100%;
+    padding-top: 30px;
+    border-radius: 20px;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel__slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.carousel__slide:nth-child(1) {
+    background-image: url(./../../../dist/images/Rectangle\ 1slider-sum.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+}
+
+.carousel__slide:nth-child(2) {
+    background-image: url(./../../../dist/images/Rectangle2.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+}
+
+.carousel__slide:nth-child(3) {
+    background-image: url(./../../../dist/images/Rectangle\ 3.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+    position: absolute;
+    margin-top: 280px;
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+    outline: 0;
+}
+
+.carousel::before,
+.carousel__prev {
+    right: 100px;
+}
+
+.carousel::after,
+.carousel__next {
+    right: 20px;
+}
+
+.carousel::before,
+.carousel::after {
+    content: "";
+    z-index: 1;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    pointer-events: none;
+}
+
+.carousel::before {
+    background-image: url(./../../../dist/images/arrow-left.svg);
+}
+
+.carousel::after {
+    background-image: url(./../../../dist/images/arrow-right.svg);
+}

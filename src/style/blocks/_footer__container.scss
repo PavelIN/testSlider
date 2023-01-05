@@ -1,0 +1,35 @@
+
+
+.footer__container {
+    margin-top: 180px;
+    background-color: #F6F6F6;
+    padding: $padding;
+    display: flex;
+
+    .footer__logo {
+        height: 101px;
+        width: 205px;
+    }
+
+    a {
+        color: black;
+    }
+
+    .footer__container-link {
+        margin-top: 20px;
+        color: black;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        text-decoration: underline;
+    }
+
+    .footer__container-icon {
+        cursor: pointer;
+        align-items: center;
+        display: flex;
+        gap: 25px;
+        margin-left: auto;
+    }
+}
+

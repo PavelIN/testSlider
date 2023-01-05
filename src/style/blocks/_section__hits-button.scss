@@ -1,0 +1,16 @@
+.section__hits-button {
+    margin-top: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: #F47322;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    min-height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.section__hits-button:hover {
+    transform: scale(1.05);
+}

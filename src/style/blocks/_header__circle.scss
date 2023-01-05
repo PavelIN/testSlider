@@ -1,0 +1,38 @@
+.header__circle {
+    position: relative;
+    border-radius: 50%;
+    background-color: #F66A15;
+    min-width: 49px;
+    height: 49px;
+    margin: auto 0 auto 25px;
+    cursor: pointer;
+
+    img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 25%;
+        left: 0;
+        right: 0;
+    }
+
+    .header__circle-mini {
+        background-color: #FFAF19;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        border-radius: 50%;
+        left: 65%;
+        top: 65%;
+    }
+
+    span {
+        position: absolute;
+        margin: auto;
+        top: 25%;
+        left: 25%;
+        bottom: 0;
+        right: 0;
+        font-size: 8px;
+    }
+}
